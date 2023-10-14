@@ -1,10 +1,19 @@
 
-     
-     img{
-   
-        width: 830px;
-        margin: 0 auto;
-        height: 700px;
-      
-    
-     }
+* {
+   background-color: whitesmoke;
+}
+img {
+   width: 830px;
+   margin: 0 auto;
+   height: 700px;
+}
+
+.navbar {
+   background-color: red;
+}
+
+.nav-bar nav-link {
+   color: white;
+   background-color: blue;
+
+}
