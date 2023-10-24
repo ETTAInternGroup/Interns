@@ -1,0 +1,63 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+    
+    }
+    body{
+        background-color: #f2f2f2;
+    }
+
+    .contactbox{
+        width:420px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        position: absolute;
+        background:#6d6977;
+    }
+    .contactbox h1{
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        margin:40px 0;
+        color:white;
+    }
+    
+    
+    .contactbox p{
+        font-size: 20;
+        margin: 10px;
+        color:white;
+    }
+    
+    .contactbox input{
+        font-size:  16px;
+        width: 80%;
+        padding: 6px 10px;
+        border: 0;
+        outline:  none;
+        border-radius: 5px;
+        margin: 7px;
+       
+    
+    }
+   input[ name =message]{
+      height:130px;  
+    }
+    
+    
+    .contactbox button{
+        font-size: 16x;
+        font-weight: bold;
+        margin: 10px;
+        padding: 1px 10px; 
+    }
+    .contactbox label{
+        color:white;
+        margin: 10px;
+    }
+    
+    
