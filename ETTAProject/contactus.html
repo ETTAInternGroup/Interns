@@ -1,37 +1,94 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Contact Us</title>
-    <link rel="stylesheet"href="./assets/css/contactus.css">
-    
-</head>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta html-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet"href="./assets/css/contactus.css">
+        <link rel="icon" href="./assets/images/ETTALogoDark.jpeg">
+        
+    </head>
 
-<body>
-    <div class ="contactbox">
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="dashboard.html">Early Transition in Tech Acceleration</a>
             
-        <h1>Contact Us</h1>
-        <form method="post" action =" ">
-      
-            <p> Full Name</p>
-            <input type = "text" name= "fname" placeholder="Your full Name"required>
-            <p> Phone Number</p>
-            <input type = "text" name= "phone" placeholder="Phone Number"required>
-            <p> Email</p>
-            <input type = "email" name = "email" placeholder="Email"required>
-            <label>Message</label>
-            <input type = "text" name = "message" required>
-            <button type ="submit"> Send</button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             
-        </form>
-            
-            
-    </div>
-    <div id="carouselExampleSlidesOnly" class="carousel slide"  data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/images/" class="d-block w-100" alt="...">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto bg-dark">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="courses.html">Courses Homepage</a>
+                            <a class="dropdown-item" href="#">Programming</a>
+                            <a class="dropdown-item" href="#">Cyber Security</a>
+                            <a class="dropdown-item" href="#">Robotics</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Basic Learning
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Typing</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About Us<span class="sr-only"></span></a>
+                    </li>
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contactus.html">Contact Us<span class="sr-only"></span></a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button type="search" class="btn btn-primary bg-transparent">Search</button>
+                    <!-- We will connect the login file here -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">login<span class="sr-only"></span></a>
+                    </li>
+
+                </form>
+            </div>    
+        </nav>
+
+        <div class ="contactbox">
+                
+            <h1>Contact Us</h1>
+            <form method="post" action =" ">
+        
+                <p> Full Name</p>
+                <input type = "text" name= "fname" placeholder="Your full Name"required>
+                <p> Phone Number</p>
+                <input type = "text" name= "phone" placeholder="Phone Number"required>
+                <p> Email</p>
+                <input type = "email" name = "email" placeholder="Email"required>
+                <label>Message</label>
+                <input type = "text" name = "message" required>
+                <button type ="submit"> Send</button>
+                
+            </form>   
         </div>
 
-</body>
-
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
 </html>
