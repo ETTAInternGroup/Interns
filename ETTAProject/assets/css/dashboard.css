@@ -7,17 +7,3 @@ img {
    margin: 0 auto;
    height: 700px;
 }
-
-.navbar {
-   background-color: red;
-}
-
-.nav-bar nav-link {
-   color: white;
-   background-color: blue;
-
-}
-
-.nav-item.dropdown {
-   color: white
-}
