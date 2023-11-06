@@ -5,6 +5,7 @@
     font-family: sans-serif;
     
 }
+
 body{
     background-color: #353232;
 }
@@ -16,12 +17,13 @@ img {
     }
 
 .contactbox{
-    width:420px;
+    width:480px;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     position: absolute;
     background:#232129;
+    margin:40px 0;
 }
 .contactbox h1{
     font-size: 15px;

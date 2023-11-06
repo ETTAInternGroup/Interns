@@ -1,9 +1,10 @@
 
-body {
-   background-color: whitesmoke;
-}
-img {
-   width: 830px;
-   margin: 0 auto;
-   height: 700px;
-}
+   body {
+      background-color: whitesmoke;
+      text-align: center;
+      
+   }
+   img {
+      width: 830px;
+      margin: 0 auto;
+   }
