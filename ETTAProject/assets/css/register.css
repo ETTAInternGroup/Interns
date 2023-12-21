@@ -8,14 +8,14 @@
 
     img{
         border-radius: 50%;
-        width: 150px;
+        width: 130px;
         margin: 0 auto;
-        padding: 0 140px;  
+        padding: 0 157px;  
      }
 
     .registerbox{
         width:480px;
-        height: 580px;
+        height: 690px;
         top: 50%;
         left: 50%;
         transform: translate(-50% , -50%);
@@ -26,7 +26,7 @@
      body{
     
         background-size: cover;
-        background-color: #070707;
+        background-color: #0d0d0d;
        
     
      }
@@ -61,6 +61,17 @@
     input{
         font-size:  16px;
         width: 80%;
+        padding: 4px 10px;
+        border: 0;
+        outline:  none;
+        border-radius: 5px;
+        margin: 10px;
+    
+    }
+
+    select{
+        font-size:  16px;
+        width: 85%;
         padding: 4px 10px;
         border: 0;
         outline:  none;
