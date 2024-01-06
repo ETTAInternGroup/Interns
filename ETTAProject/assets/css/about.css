@@ -1,15 +1,15 @@
 body {
 	margin: 0;
 	font-family: Arial, sans-serif;
-
-}
-
-h1 {
-	background-color: #333;
-	color: #0d013d;
 	padding: 10px;
 }
 
+h1 {
+	background-color: #f3f2f2;
+	color: rgb(2, 2, 103);
+	padding: 10px;
+	text-align: center;
+}
 
 nav a {
 	color: #fff;
@@ -18,11 +18,30 @@ nav a {
 }
 
 img {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
+	width: 250px;
+	height: 320px;
 	object-fit: cover;
 	margin-bottom: 10px;
+	padding: 10px;
+	margin:5px;
+	
 }
+
+h2{
+	color:rgb(2, 2, 103);
+	padding: 10px;
+}
+
+p{
+	padding: 10px;
+	
+}
+
+.team-member{
+	float: left;
+	width: 50%;
+
+}
+
 
 
