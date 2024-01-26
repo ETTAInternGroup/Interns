@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -8,129 +7,188 @@
 		<meta name ="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link rel="stylesheet"href="./assets/css/about.css">
+		<link rel="stylesheet"href="./assets/css/dashboard.css">
+
 		<link rel="icon" href="./assets/images/ETTALogoDark.jpeg">
 		
 	</head>
 
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="dashboard.html">Early Transition in Tech Acceleration</a>
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto bg-dark">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Courses
-                        </a>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="dashboard.html">Early Transition in Tech Acceleration</a>
+                
+                <!-- Hamburger Menu Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto bg-dark">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Courses
+                            </a>
 
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="courses.html">Courses Homepage</a>
-                            <a class="dropdown-item" href="#">Programming</a>
-                            <a class="dropdown-item" href="#">Cyber Security</a>
-                            <a class="dropdown-item" href="#">Robotics</a>
-                        </div>
-                    </li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="courses.html">Courses Homepage</a>
+                                <a class="dropdown-item" href="programming.html">Programming</a>
+                                <a class="dropdown-item" href="cyberSecurity.html">Cybersecurity</a>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Basic Learning
-                        </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Basic Learning
+                            </a>
 
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Typing</a>
-                        </div>
-                    </li>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Typing</a>
+                            </div>
+                        </li>
 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="about.html">About Us<span class="sr-only"></span></a>
-                    </li>
-                    
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contactus.html">Contact Us<span class="sr-only"></span></a>
-                    </li>
-                </ul>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">About Us<span class="sr-only"></span></a>
+                        </li>
+                        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contactus.html">Contact Us<span class="sr-only"></span></a>
+                        </li>
+                    </ul>
 
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
-                    <button type="search" class="btn btn-primary bg-transparent">Search</button>
-                    <!-- We will connect the login file here -->
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">login<span class="sr-only"></span></a>
-                    </li>
-
-                </form>
-            </div>  
-              
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="login.html"><span class="sr-only"></span>Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
         </nav>
 
         <main>
+
 		<section class="about-us">
-			<h1>About Us</h1>
-			<p>At Early Transition in Tech Association, our mission is to empower all children, irrespective of their socio-economic status, to thrive in the realms of science, technology, engineering, and mathematics.
-                 We aim to not only enhance their individual futures but also to cultivate a profound excitement for learning that captivates their minds.
-                 Our commitment extends to pioneering new pathways for today's youth, forging efficient pipelines that seamlessly connect them with educational institutions and valuable employment opportunities.</p>
-                </section><br>
+			<h2 class="page-header">About Us</h1>
+			<p>At Early Transition in Tech Association, our mission is to empower all   children, irrespective of their socio-economic status, to thrive in the realms of science, technology, engineering, and mathematics.
+            We aim to not only enhance their individual futures but also to cultivate a profound excitement for learning that captivates their minds.
+            Our commitment extends to pioneering new pathways for today's youth, forging efficient pipelines that seamlessly connect them with educational institutions and valuable employment opportunities.</p>
+        </section><br>
 
       
         <section class="meet-the-team">
             <h2>Meet our Team</h2>
             <div class="team-member">
-                <img src="./assets/images/Katrina.jpg">
-                <p>Katrina Jones<br>
+                <img class="team-member-img" src="./assets/images/Katrina.jpg" alt="Team Member Image">
+                <p><strong>Katrina Jones</strong><br>
                     Founder/President and CEO</p>
-                </div>
+            </div>
               
-                <div class="team-member">
-                    <img src="./assets/images/Davontia Johnson.jpg">
-                    <p>Davontia Johnson<br>
-                    Chief Operations Officer(COO) and Vice President</p><br>
-                    </div>
-                    </section>
+            <div class="team-member">
+                <img class="team-member-img" src="./assets/images/Davontia Johnson.jpg" alt="Team Member Image">
+                <p><strong>Davontia Johnso</strong>n<br>
+                Chief Operations Officer(COO) and Vice President</p><br>
+                </div>
+        </section>
                     
-            <section class="Our-Vision">
-                <h3>Our vision</h3>
-                    <p>To envision a world where every child is 
-                        empowered to thrive in the realms of technology, education, 
-                        and career, driven by inspiration, and interconnected through 
-                        a global community united in fostering positive change.</p>
-                </section>
+        <section class="Our-Vision">
+            <h3>Our vision</h3>
+            <p>To envision a world where every child is 
+            empowered to thrive in the realms of technology, education, 
+            and career, driven by inspiration, and interconnected through 
+            a global community united in fostering positive change.</p>
+        </section>
  
      
         </main>
 
+        <!-- Footer -->
+        <footer class="text-center text-white bg-dark" style="background-color: black">
+            <!-- Grid container -->
+            <div class="container">
+                <!-- Section: Links -->
+                <section class="mt-5">
+                <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-center pt-5">
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href=about.html!" class="text-white">About us</a>
+                    </h6>
+                    </div>
+                    <!-- Grid column -->
+        
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="courses.html" class="text-white">Courses</a>
+                    </h6>
+                    </div>
+                    <!-- Grid column -->
+        
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="contactus.html" class="text-white">Contact</a>
+                    </h6>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row-->
+                </section>
+                <!-- Section: Links -->
+        
+                <hr class="my-3" />
+        
+                <!-- Section: Text -->
+                <section class="mb-3">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                    <p>At Early Transition in Tech Association, our mission is to empower all   children, irrespective of their socio-economic status, to thrive in the realms of science, technology, engineering, and mathematics.
+                    </p>
+                    </div>
+                </div>
+                </section>
+                <!-- Section: Text -->
+        
+                <!-- Section: Social -->
+                <section class="text-center mb-3">
+                    <a href="" class="text-white me-4">
+                        <img src="./assets/icons/facebook.svg" class="social-icon" alt="Facebook Logo">
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <img src="./assets/icons/x-twitter.svg" class="social-icon" alt="X Logo">
 
-        <div class = "text-center">
-            <div style="position: center; bottom: 5px; background-color: rgb(230, 226, 226)">
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <img src="./assets/icons/square-instagram.svg" class="social-icon" alt="Facebook Logo">
+
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <img src="./assets/icons/envelope-solid.svg" class="social-icon" alt="Email Logo">
+                    </a>
+                </section>
+                <!-- Section: Social -->
+            </div>
+            <!-- Grid container -->
+        
+            <!-- Copyright -->
+            <div
+                class="text-center p-3"
+                style="background-color: rgba(0, 0, 0, 0.2)"
+                >
+                Copyright &copy;2023. Early Transition in Tech Acceleration.  All Rights Reserved.
+                EIN: 93-2964280
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
     
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="crossorigin="anonymous"></script>
-
-        
-
-          <!-- Load the footer-->
-     <script>
-        $(function(){
-
-            $('#footer').load("footer.html");
-
-        });
-    </script>
-
-    <div id="footer"></div>
-            </div>
-        </div>
         
 
 
-</body>
+    </body>
 </html>
