@@ -1,11 +1,79 @@
 
-   body {
-      background-color: whitesmoke;
-      text-align: center;
-      
-   }
-   img {
-      width: 830px;
-      margin: 0 auto;
-   }
+* {
+   --bg-grey: #eeeeee;
+}
 
+body {
+   background-color: whitesmoke;
+   text-align: center;
+}
+
+.home-img {
+   height: 75dvh;
+   margin: 0 auto;
+}
+
+.nav-item:hover {
+   background-color: grey;
+   border-radius: 10px;
+}
+
+#navbarDropdown {
+   color: white;
+}
+
+/* Footer Section */
+.social-icon {
+   width: 30px;
+   height: auto;
+}
+
+/* General Page Format */
+.page-header {
+   margin: 2rem;
+   font-size: 3rem;
+   text-align: center;
+}
+
+/* Cybersecurity Page */
+.cyberSecurity-content {
+   border: solid;
+   background-color: var(--bg-grey, grey);
+   width: fit-content;
+   border-radius: 10px;
+   margin: 1rem;
+}
+
+/* About Us Page */
+
+.about-us p {
+   padding: 1rem;
+}
+.team-member{
+	float: left;
+	width: 50%;
+
+}
+
+.team-member-img {
+   width: 250px;
+   height: 320px;
+   object-fit: cover;
+   margin-bottom: 10px;
+   padding: 10px;
+   margin:5px;
+}
+
+/* Contact Us Page */
+.contact-us-page {
+   background-color: var(--bg-grey, grey);
+   
+}
+
+.contact-us-form {
+   border: solid;
+   border-width: 1px;
+   height: 75dvh;
+   padding: 2rem 2rem;
+   margin: 3rem 5rem;
+}
