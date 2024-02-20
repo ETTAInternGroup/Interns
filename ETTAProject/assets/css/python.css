@@ -1,10 +1,21 @@
+body{
+    padding: 10px;
+}
 p{
     color:rgb(7, 7, 101);
     text-align: left;
-    padding: 10px;
+    padding: 30px;
+
+   
 
     
 }
 li{
     text-align: left;
+    
+}
+
+h1{
+    color:rgb(67, 3, 3);
+    
 }
